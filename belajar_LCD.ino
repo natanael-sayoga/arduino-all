@@ -4,7 +4,7 @@
 
 //init lcd
 LiquidCrystal_I2C lcd(0x27,16,2);  // set the LCD address to 0x27 for a 16 chars and 2 line display
-
+                                   // to find your device address, RUN -> scan_i2c.ino
 //init for sinyal suhu
 int DHTPIN = D6;
 int DHTTYPE = DHT11;
