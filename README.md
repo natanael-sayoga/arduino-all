@@ -36,7 +36,7 @@ The **RS**, **RW**, and **E** pins on an LCD are crucial for controlling the dis
 The BLA and BLK pins on an LCD are related to the backlighting functionality. <br>
 
 # FILE:
-1. **mqtt.py**
-   running and testing mqtt server connection
-2. **scan_i2c.ino**
+1. **mqtt.py**  
+   running and testing mqtt server connection, you might need to run **pip install paho-mqtt** first to run this file!
+2. **scan_i2c.ino**  
    finding out device address for LCD practices
