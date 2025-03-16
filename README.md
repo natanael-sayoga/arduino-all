@@ -34,3 +34,9 @@
 These pins allow the microcontroller (like the ESP8266) to effectively communicate with the LCD and control its behavior.
 The **RS**, **RW**, and **E** pins on an LCD are crucial for controlling the display and communicating with it. <br>
 The BLA and BLK pins on an LCD are related to the backlighting functionality. <br>
+
+# FILE:
+1. **mqtt.py**
+   running and testing mqtt server connection
+2. **scan_i2c.ino**
+   finding out device address for LCD practices
