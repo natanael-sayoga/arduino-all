@@ -1,3 +1,6 @@
+// FOR ic2 LCD, 
+// CONNECT SDA to D2 pin,
+// CONNECT SCL to D1 pin!
 #include "DHT.h"
 #include <Wire.h> 
 #include <LiquidCrystal_I2C.h>
